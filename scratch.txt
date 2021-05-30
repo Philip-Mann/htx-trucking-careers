@@ -1,0 +1,109 @@
+"company_name": "Swift Transportation",
+"pay": "$1000 per week, Guaranteed",
+"job_type": "Over The Road, Regional, and Local"
+"trailer_type": "Dry Van, Refrigerated, Flat Bed, and Intemodal",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Phoenix, AZ",
+"hometime": "Monthly",
+"endorsments": "none",
+"company_site": "https://www.swifttrans.com/"
+
+"company_name": "Wilson Logistics",
+"pay": ".50 - .55 CPM",
+"job_type": "Over The Road"
+"trailer_type": "Dry Van and Refrigerated",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Springfield, MO",
+"hometime": "Monthly",
+"endorsments": "none",
+"company_site": "http://www.wilsonlogistics.com/"
+
+"company_name": "Highway Transport",
+"pay": "60 - 70k Annually",
+"job_type": "Over The Road, Regional, Local"
+"trailer_type": "Chemical Tankers",
+"experience_requirement": "1 Year Required",
+"will_train": "false",
+"headquarters": "Knoxville, TN",
+"hometime": "Weekly",
+"endorsments": "Hazmat and Tanker",
+"company_site": "https://drive4highway.com/"
+
+"company_name": "Service Transport Company",
+"pay": "60 - 75k Annually",
+"job_type": "Over The Road, Regional, Local"
+"trailer_type": "Chemical Tankers",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Houston, TX",
+"hometime": "Weekly",
+"endorsments": "Hazmat and Tanker",
+"company_site": "http://svtn.com/"
+
+"company_name": "CRST",
+"pay": "50k Annually",
+"job_type": "Over The Road"
+"trailer_type": "Dry Van & Refrigerated",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Cedar Rapids, IA",
+"hometime": "Monthly",
+"endorsments": "None",
+"company_site": "https://crst.com/"
+
+"company_name": "Werner Enterprise",
+"pay": "$1k - $1350 Weekly, Guaranteed",
+"job_type": "Over The Road"
+"trailer_type": "Dry Van",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Omaha, NE",
+"hometime": "Monthly",
+"endorsments": "None",
+"company_site": "https://www.werner.com/"
+
+"company_name": "Crete Carrier Corporation",
+"pay": "$.59 - $.65 CPM",
+"job_type": "Over The Road"
+"trailer_type": "Dry Van",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Lincoln, NE",
+"hometime": "Monthly",
+"endorsments": "None",
+"company_site": "https://cretecarrier.com/"
+
+"company_name": "Prime Inc.",
+"pay": "$.46 - $.53 CPM",
+"job_type": "Over The Road"
+"trailer_type": "Refrigerated, Flat Bed, Tanker, and Intermodal",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Springfield, MO",
+"hometime": "Monthly",
+"endorsments": "None",
+"company_site": "https://www.primeinc.com/"
+
+"company_name": "Schneider National Carrier",
+"pay": "Up to 70k Annually",
+"job_type": "Over The Road, Regional, Local"
+"trailer_type": "Dry Van, Tanker, and Intermodal",
+"experience_requirement": "None",
+"will_train": "true",
+"headquarters": "Green Bay, Wisconsin",
+"hometime": "Monthly",
+"endorsments": "None",
+"company_site": "https://schneider.com/"
+
+"company_name": "Heniff Transportation Systems",
+"pay": "75k Annually",
+"job_type": "Over The Road, Regional, Local"
+"trailer_type": "Tankers",
+"experience_requirement": "1 Year Required",
+"will_train": "true",
+"headquarters": "Oak Brook, IL",
+"hometime": "Weekly",
+"endorsments": "Hazmat and Tanker",
+"company_site": "https://www.heniff.com/join-our-team/company-drivers"
