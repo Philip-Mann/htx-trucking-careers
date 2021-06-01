@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTX Trucking Careers - Log In</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dcbcb40c25.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- NavBar -->
@@ -16,10 +17,10 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Careers</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="/careers">Careers</a>
               <a class="nav-link" href="#">Log In</a>
-              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+              <a class="nav-link" href="/about" tabindex="-1" aria-disabled="true">About</a>
             </div>
           </div>
         </div>
@@ -36,19 +37,21 @@
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
           </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Stay Logged In</label>
-          </div>
           <div class="button-container" >
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" class="btn btn-dark">Register</button>
           </div>
         </div>
       </form>
 
       <div class="button-container d-flex justify-content-around" >
-        <button type="submit" class="btn btn-dark">Log In As Guest</button>
-        <button type="submit" class="btn btn-dark">Log In With Google</button>
+        <a class="btn btn-dark btn-social btn-google" href="/auth/facebook" role="button">
+          <i class="fab fa-google"></i>
+          Sign In With Google
+        </a>
+        <a class="btn btn-dark btn-social btn-facebook" href="/auth/facebook" role="button">
+          <i class="fab fa-facebook"></i>
+          Sign In With Facebook
+        </a>
       </div>
 
       <!-- Footer -->
