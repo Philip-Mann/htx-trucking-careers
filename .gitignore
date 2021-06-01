@@ -8,7 +8,7 @@ node_modules
 *.txt
 
 # Ignore files related to API keys
-.env
+*.env
 
 # Ignore SASS config files
 .sass-cache
