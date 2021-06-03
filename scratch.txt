@@ -1,109 +1,115 @@
-"company_name": "Swift Transportation",
+"companyName": "Swift Transportation",
 "pay": "$1000 per week, Guaranteed",
-"job_type": "Over The Road, Regional, and Local"
-"trailer_type": "Dry Van, Refrigerated, Flat Bed, and Intemodal",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road, Regional, and Local"
+"trailerType": "Dry Van, Refrigerated, Flat Bed, and Intemodal",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Phoenix, AZ",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "none",
-"company_site": "https://www.swifttrans.com/"
+"companySite": "https://www.swifttrans.com/"
 
-"company_name": "Wilson Logistics",
+"companyName": "Wilson Logistics",
 "pay": ".50 - .55 CPM",
-"job_type": "Over The Road"
-"trailer_type": "Dry Van and Refrigerated",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road",
+"trailerType": "Dry Van and Refrigerated",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Springfield, MO",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "none",
-"company_site": "http://www.wilsonlogistics.com/"
+"companySite": "http://www.wilsonlogistics.com/"
 
-"company_name": "Highway Transport",
+"companyName": "Highway Transport",
 "pay": "60 - 70k Annually",
-"job_type": "Over The Road, Regional, Local"
-"trailer_type": "Chemical Tankers",
-"experience_requirement": "1 Year Required",
-"will_train": "false",
+"jobType": "Over The Road, Regional, Local"
+"trailerType": "Chemical Tankers",
+"experienceRequirement": "1 Year Required",
+"willTrain": false,
 "headquarters": "Knoxville, TN",
-"hometime": "Weekly",
+"homeTime": "Weekly",
 "endorsments": "Hazmat and Tanker",
-"company_site": "https://drive4highway.com/"
+"companySite": "https://drive4highway.com/"
 
-"company_name": "Service Transport Company",
+"companyName": "Service Transport Company",
 "pay": "60 - 75k Annually",
-"job_type": "Over The Road, Regional, Local"
-"trailer_type": "Chemical Tankers",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road, Regional, Local"
+"trailerType": "Chemical Tankers",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Houston, TX",
-"hometime": "Weekly",
+"homeTime": "Weekly",
 "endorsments": "Hazmat and Tanker",
-"company_site": "http://svtn.com/"
+"companySite": "http://svtn.com/"
 
-"company_name": "CRST",
+"companyName": "CRST",
 "pay": "50k Annually",
-"job_type": "Over The Road"
-"trailer_type": "Dry Van & Refrigerated",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road"
+"trailerType": "Dry Van & Refrigerated",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Cedar Rapids, IA",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "None",
-"company_site": "https://crst.com/"
+"companySite": "https://crst.com/"
 
-"company_name": "Werner Enterprise",
+"companyName": "Werner Enterprise",
 "pay": "$1k - $1350 Weekly, Guaranteed",
-"job_type": "Over The Road"
-"trailer_type": "Dry Van",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road",
+"trailerType": "Dry Van",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Omaha, NE",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "None",
-"company_site": "https://www.werner.com/"
+"companySite": "https://www.werner.com/"
 
-"company_name": "Crete Carrier Corporation",
+"companyName": "Crete Carrier Corporation",
 "pay": "$.59 - $.65 CPM",
-"job_type": "Over The Road"
-"trailer_type": "Dry Van",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road",
+"trailerType": "Dry Van",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Lincoln, NE",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "None",
-"company_site": "https://cretecarrier.com/"
+"companySite": "https://cretecarrier.com/"
 
-"company_name": "Prime Inc.",
+"companyName": "Prime Inc.",
 "pay": "$.46 - $.53 CPM",
-"job_type": "Over The Road"
-"trailer_type": "Refrigerated, Flat Bed, Tanker, and Intermodal",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road",
+"trailerType": "Refrigerated, Flat Bed, Tanker, and Intermodal",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Springfield, MO",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "None",
-"company_site": "https://www.primeinc.com/"
+"companySite": "https://www.primeinc.com/"
 
-"company_name": "Schneider National Carrier",
+"companyName": "Schneider National Carrier",
 "pay": "Up to 70k Annually",
-"job_type": "Over The Road, Regional, Local"
-"trailer_type": "Dry Van, Tanker, and Intermodal",
-"experience_requirement": "None",
-"will_train": "true",
+"jobType": "Over The Road, Regional, Local"
+"trailerType": "Dry Van, Tanker, and Intermodal",
+"experienceRequirement": "None",
+"willTrain": true,
 "headquarters": "Green Bay, Wisconsin",
-"hometime": "Monthly",
+"homeTime": "Monthly",
 "endorsments": "None",
-"company_site": "https://schneider.com/"
+"companySite": "https://schneider.com/"
 
-"company_name": "Heniff Transportation Systems",
+"companyName": "Heniff Transportation Systems",
 "pay": "75k Annually",
-"job_type": "Over The Road, Regional, Local"
-"trailer_type": "Tankers",
-"experience_requirement": "1 Year Required",
-"will_train": "true",
+"jobType": "Over The Road, Regional, Local"
+"trailerType": "Tankers",
+"experienceRequirement": "1 Year Required",
+"willTrain": true,
 "headquarters": "Oak Brook, IL",
-"hometime": "Weekly",
+"homeTime": "Weekly",
 "endorsments": "Hazmat and Tanker",
-"company_site": "https://www.heniff.com/join-our-team/company-drivers"
+"companySite": "https://www.heniff.com/join-our-team/company-drivers"
+
+
+
+
+
+npx sequelize-cli model:generate --name Companies --attributes companyName:string,pay:string,jobType:string,trailerType:string,experienceRequirement:string,willTrain:boolean,headquarters:string,homeTime:string,endorsements:string,companySite:string

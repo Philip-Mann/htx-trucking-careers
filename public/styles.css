@@ -1,0 +1,11 @@
+/* Navbar and Footer Color Gradient */
+.bg-custom-2 {
+    background-image: linear-gradient(15deg, rgba(48, 207, 208, 1) 0%, rgba(51, 8, 103, 1) 100%);
+    }
+.card {
+    margin-bottom: 3.5rem;
+}
+
+.apply-button {
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.5), rgba(37, 117, 252, 0.5));
+}

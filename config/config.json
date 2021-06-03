@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "philip",
+    "password": null,
+    "database": "htx-trucking-careers_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "philip",
+    "password": null,
+    "database": "htx-trucking-careers_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "philip",
+    "password": null,
+    "database": "htx-trucking-careers_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+
+

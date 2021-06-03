@@ -5,9 +5,12 @@ const session = require('express-session');
 const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const Sequelize = require('sequelize');
+const { Companies } = require('./models');
 
 const app = express();
 app.use(express.static('public'))
+app.use(express.json());
 
 app.engine('html', es6Renderer);     
 app.set('views', 'templates');       
@@ -49,14 +52,45 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
-app.get('/careers', (req, res) => {
-  res.render('careers')
+app.get('/careers', async (req, res) => {
+  const companies = await Companies.findAll();
+  const companyIds = Object.keys(companies)
+  let companiesArray = companyIds.map( id => companies[id])
+
+  res.render('careers', {
+    locals: {
+      companiesArray
+    }
+  })
+  // res.json(companies);
 })
+
+app.post('/careers', async (req, res) => {
+  const { companyName, pay, jobType, trailerType, 
+  experienceRequirement, willTrain, headquarters, 
+  homeTime, endorsements, companySite } = req.body;
+  const newCompany = await Companies.create ({
+    companyName,
+    pay,
+    jobType,
+    trailerType,
+    experienceRequirement,
+    willTrain,
+    headquarters,
+    homeTime,
+    endorsements,
+    companySite
+  });
+  res.json({
+      "message": "new user created successfuly",
+      "id": newCompany.id
+  });
+});
 
 // Sign in With Facebook Callback
 app.get('/auth/facebook',
   passport.authenticate('facebook'));
-
+// Sign in With Facebook Callback
 app.get('/auth/facebook/callback',  // or callback
   passport.authenticate('facebook', { failureRedirect: '/login' }),
   function(req, res) {
@@ -67,7 +101,7 @@ app.get('/auth/facebook/callback',  // or callback
 //Sign in With Google Callback
 app.get('/auth/google',
   passport.authenticate('google', { scope: ['profile'] }));
-
+//Sign in With Google Callback
 app.get('/auth/google/callback', 
   passport.authenticate('google', { failureRedirect: '/login' }),
   function(req, res) {
